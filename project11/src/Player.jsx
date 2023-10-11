@@ -22,7 +22,7 @@ const [list, setList] = useState([]);
 
 useEffect(()=>{
     console.log("Spring으로 요청");
-    let url = "http://localhost:8060/SpringBoot2/PlayerList.do"
+    let url = "http://15.165.160.192:8060/SpringBoot2/PlayerList.do"
 
     axios
     .post(url, {responseType : 'blob'})

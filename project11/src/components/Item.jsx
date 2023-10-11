@@ -20,7 +20,7 @@ const Item = ({index, imgSrc, name, position}) => {
         <img src={imgSrc} onClick={()=>{
 
             console.log("Detail 요청");
-            let url = "http://localhost:8060/SpringBoot2/PlayerDetail.do?name="+name;
+            let url = "http://15.165.160.192:8060/SpringBoot2/PlayerDetail.do?name="+name;
 
             axios.get(url)
                 .then((res)=>{
