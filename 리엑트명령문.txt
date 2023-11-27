@@ -1,0 +1,18 @@
+**cd ? change directory 경로이동
+**ls ? list 안에 있는 폴더,파일탐색
+
+1. 리엑트 프로젝트 생성하기
+npx create-react-app 프로젝트이름
+
+2. 리엑트 프로젝트 실행하기
+cd 실행할 프로젝트이름
+npm start
+
+# 혹시 새로 리엑트/ 노드 환경을 만드려면?
+1. Node 설치
+2. 프로젝트 접근해서 실행
+ 만약 안되면?
+ case A) npm uninstall -g create-react-app  
+        npm install -g create-react-app
+
+ case B) npm install -g npm       

@@ -1,0 +1,22 @@
+.menu-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+    flex-wrap: wrap;
+}
+.menu-container>div{
+    border : 5px solid plum;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    flex-basis: 30%;
+    
+}
+
+img{
+    width: 250px;
+    align-items: center;
+}

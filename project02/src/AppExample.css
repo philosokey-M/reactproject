@@ -1,0 +1,8 @@
+.intro-container{
+    border: 10px solid rgb(65, 120, 141);
+    margin :2%;
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }

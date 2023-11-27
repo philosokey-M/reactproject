@@ -1,0 +1,9 @@
+.podding{
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 5px solid pink;
+  text-align: center;
+  
+
+}
